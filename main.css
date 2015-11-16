@@ -128,7 +128,7 @@ ul {
   background-image: url('images/avatar.png');
   background-size: cover;
   content: '';
-  -webkit-transform: translatex(-120%, -50%);
+  -webkit-transform: translate(-120%, -50%);
   transform: translate(-120%, -50%);
   padding-top: 51.5625%;
   width: 51.5625%;
