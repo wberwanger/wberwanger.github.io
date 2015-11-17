@@ -90,6 +90,10 @@ ul {
   width: 100%;
   max-width: 80rem;
 }
+.content {
+  border-bottom: 1rem;
+  border-color: rgb(48, 48, 48);
+}
 
 .content__about, .content__title, .content__whom {
   margin: 0 auto;
@@ -127,6 +131,27 @@ ul {
   width: 5.625rem;
   height: 2px;
 }
+
+/*
+ * breakpoints
+ */
+
+
+/*
+@media (min-width: 320px) {
+
+  .column .header{
+  max-width: 20rem;
+  overflow: hidden;}
+  
+}
+
+h2.content__title (min-width: 320px) {
+    font-size: 4.25rem;
+  }
+ */
+
+
 
 /*
  * contact
@@ -208,3 +233,25 @@ ul {
   background-image: url('images/gcolorado-5_socialshare.png');
   padding-top: 72.22222%;
 }
+
+/*
+ * clic
+ */
+
+.content__picture--clicconcept {
+  background-image: url('images/clic-1_concept.png');
+  padding-top: 217.99561%;
+}
+.content__picture--clicmenu {
+  background-image: url('images/clic-2_menu.png');
+  padding-top: 64.45686%;
+}
+.content__picture--cliclivehub {
+  background-image: url('images/clic-3_livehub.png');
+  padding-top: 61.67664%;
+}
+.content__picture--clicwebview {
+  background-image: url('images/clic-4_webview.png');
+  padding-top: 61.67664%;
+}
+
