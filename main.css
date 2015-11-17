@@ -133,19 +133,6 @@ ul {
 }
 
 /*
- * breakpoints
- */
-
-/*
-@media (min-width: 320px) {
-  .column .header{
-  max-width: 320px;
-  overflow: hidden;
-  }
-}
- */
-
-/*
  * contact
  */
 
@@ -189,6 +176,7 @@ ul {
   top: 50%;
   left: 0;
   background-image: url('images/avatar.png');
+  background-size: cover;
   content: '';
   -webkit-transform: translate(-120%, -50%);
   transform: translate(-120%, -50%);
@@ -247,3 +235,35 @@ ul {
   padding-top: 61.67664%;
 }
 
+/*
+ * modifiers
+ */
+
+@media (max-width: 79rem) {
+  html {
+    font-size: 14px;
+  }
+
+  .header__title {
+    font-size: 9.375vw;
+    letter-spacing: -0.05em;
+  }
+}
+
+@media (max-width: 39rem) {
+  html {
+    font-size: 12px;
+  }
+
+  .header__box {
+    -webkit-transform: translate(-50%, -25%);
+    transform: translate(-50%, -25%);
+  }
+
+  .header__box::before {
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -125%);
+    transform: translate(-50%, -125%);
+  }
+}
