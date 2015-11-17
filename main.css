@@ -254,10 +254,14 @@ ul {
   html {
     font-size: 12px;
   }
-
+  h2 {
+    font-size: 9.375vw;
+    text-align: center;
+  }
   .header__box {
     -webkit-transform: translate(-50%, -25%);
     transform: translate(-50%, -25%);
+    text-align: center;
   }
 
   .header__box::before {
