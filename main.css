@@ -136,22 +136,14 @@ ul {
  * breakpoints
  */
 
-
 /*
 @media (min-width: 320px) {
-
   .column .header{
-  max-width: 20rem;
-  overflow: hidden;}
-  
-}
-
-h2.content__title (min-width: 320px) {
-    font-size: 4.25rem;
+  max-width: 320px;
+  overflow: hidden;
   }
+}
  */
-
-
 
 /*
  * contact
