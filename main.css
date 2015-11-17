@@ -236,6 +236,20 @@ ul {
 }
 
 /*
+ * easycondo
+ */
+.content__picture--easycondopreview {
+  background-image: url('images/easycondo-1_preview.png');
+  padding-top: 77.77777%;
+}
+.content__picture--easycondoadmin {
+  background-image: url('images/easycondo-2_admin.png');
+  padding-top: 67.21664%;
+}
+
+
+
+/*
  * modifiers
  */
 
