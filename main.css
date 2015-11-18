@@ -122,6 +122,9 @@ ul {
   margin-top: 2rem;
   margin-bottom: 4rem;
 }
+.end {
+  margin-bottom: 15rem;
+}
 
 .content__whom::before {
   background-color: rgb(229, 229, 229);
