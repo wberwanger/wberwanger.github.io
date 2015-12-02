@@ -239,6 +239,14 @@ ul {
 }
 
 /*
+ * clube
+ */
+.content__picture--clube {
+  background-image: url('images/clube_concept.png');
+  padding-top: 56.05381%;
+}
+
+/*
  * easycondo
  */
 .content__picture--easycondopreview {
@@ -249,7 +257,6 @@ ul {
   background-image: url('images/easycondo-2_admin.png');
   padding-top: 67.21664%;
 }
-
 
 
 /*
